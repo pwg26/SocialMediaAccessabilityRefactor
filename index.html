@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon Website Main Page</title>
 </head>
 
 <body>
@@ -12,9 +12,7 @@
     <header class="header">
         
         <h1>Hori<span class="seo">seo</span>n</h1>
-        
-        <!-- This part of the header contains navigation links, div tag changed to semantic element "nav" -->
-        <nav>
+        <div>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -26,7 +24,7 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </nav>
+        </div>
     
     </header>
     
@@ -36,7 +34,8 @@
     <section class="content">
         
         <!-- This is an individual aritcle contained in a section, div tag changed to semantic element "article" -->
-        <article class="search-engine-optimization">
+        <!-- added id atribute so header link can navigate-->
+        <article id = "search-engine-optimization" class="search-engine-optimization"> 
             
             <!-- added alt attribute -->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="notebook with SEO on cover"/>
